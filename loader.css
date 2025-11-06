@@ -1,0 +1,40 @@
+body{
+    background-color: indigo;
+}
+.load{
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.spin{
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prog{
+    width: 80px;
+    height: 80px;
+    background-color: indigo;
+    border-radius: 30%;
+    animation: progress 2s linear 0s infinite;
+}
+@keyframes progress {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+h1{
+    color: azure;
+    font-weight: 1000;
+}
